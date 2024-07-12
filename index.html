@@ -1,15 +1,35 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script> 
-$(function(){
-  $("#contentdisplayer").load("navbar.html"); 
-});
-</script> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
-<div>
-    <img src="https://img.freepik.com/premium-photo/man-lifting-weight-gym_966909-280.jpg?w=900" class="main-image w-100 " style="height: 100vh;">
-    <div class="image-text" >
-        “Transform Your Body, Transform Your Life”
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="units.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar m-5">
+        <div class="nav row space-between">
+            <div><img src="/static/logo/img_1.png" class="logo w-35 middle" alt=""></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/admin_login">Admin</a></li>
+                <li><a href="/gym_trainer_login">Gym Trainer</a></li>
+                <li><a href="/gym_trainee_login">Gym Trainee</a></li>
+            </ul>
+        </div>
     </div>
-</div>
+    <div>
+      <img src="https://img.freepik.com/premium-photo/man-lifting-weight-gym_966909-280.jpg?w=900" class="main-image w-100 " style="height: 100vh;">
+      <div class="image-text" >
+          “Transform Your Body, Transform Your Life”
+      </div>
+    </div>
+</body>
+</html>
